@@ -152,3 +152,35 @@ input[type="checkbox"]::before::after{
     padding: 1.2rem;
     border-radius: 0.5rem;
 }
+
+.made-by,
+.author{
+    font-size: 0.9rem;
+}
+
+.made-by{
+    color: var(--grey-dark);
+}
+.author{
+    color: var(--blue);
+    font-weight: bold;
+}
+
+
+.scroll{
+    height: 15rem;
+    scrollbar-width: thin;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+    border-radius: 0.5rem;
+}
+
+.scroll::-webkit-scrollbar-track {
+    display: none;
+}
